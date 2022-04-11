@@ -1,7 +1,7 @@
 
     $(window).on("load", function() { // makes sure the whole site is loaded
       //preloader
-      $("#status").fadeOut(1000); 
+      $("#status").fadeOut(1200); 
       $("#preloader").delay(1000).fadeOut("slow"); 
       $(document).masonry();    
     });
